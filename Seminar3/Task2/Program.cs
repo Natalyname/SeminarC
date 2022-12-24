@@ -4,7 +4,13 @@ using static System.Console;
 Clear();
 
 WriteLine("Введите номер дня недели: ");
-int a = int.Parse(ReadLine()!);
+//int a = int.Parse(ReadLine()!);
+bool isParse = int.TryParse(ReadLine(), out int a);
+if (!isParse)
+{
+    WriteLine("Введено не число");
+    return;
+}
 
 switch (a)
 {
