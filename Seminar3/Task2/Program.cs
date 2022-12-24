@@ -49,8 +49,7 @@ switch (a)
         WriteLine($"{a = 7} - Воскресенье");
         break;
     }
-    default:
-    {
+    default:{
         WriteLine("Неправильно введена цифра дня недели");
         break;
     }
