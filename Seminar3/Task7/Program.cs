@@ -1,4 +1,7 @@
-﻿using static System.Console;
+﻿// Напишите программу, которая принимает на вход число (N) и выдаёт
+//  таблицу квадратов чисел от 1 до N.
+ 
+ using static System.Console;
 Clear();
 
 int i = 1;
