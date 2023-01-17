@@ -14,7 +14,7 @@ WriteLine();
 int negativeSum = 0;
 int positiveSum = 0;
 
-foreach (int a in array)
+foreach (int a in array)  //Каждый раз в переменную а подкидывает новое значение массива
 {
     negativeSum += a < 0 ? a : 0;
     positiveSum += a > 0 ? a : 0;
