@@ -8,7 +8,6 @@ Clear();
 
 WriteLine("Введите через пробел размерность матрицы и мин и макс значения: ");
 string[] par = ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
-
 int[,] matrixArray = GetMatrixArray(int.Parse(par[0]), int.Parse(par[1]), int.Parse(par[2]), int.Parse(par[3]));
 
 PrintMatrixArray(matrixArray);
