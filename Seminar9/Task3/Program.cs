@@ -12,6 +12,7 @@ WriteLine($"Сумма цифр числа {N} равна {GetNum(N)}");
 
 int GetNum (int num)
 {
-if (num == 0) return num;
+//if (num == 0) return num;      // можно return num
+if (num == 0) return 0;          // в данном сл. так правильнее: return 0
 else return GetNum (num/10) + num % 10;
 }
